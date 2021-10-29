@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Video Wallpaper</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="areyousure">Are you sure?</string>
+    <string name="trimming_progress">Trimming your video…</string>
+    <string name="short_seconds">sec</string>
+    <string name="kilobyte">KB</string>
+    <string name="megabyte">MB</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="select">Select</string>
+    <string name="video">Video</string>
+    <string name="settings">Settings</string>
+    <string name="upload">Skip>></string>
+
+
+    <!--  Test Ad ids-->
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="bannerId">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitialId">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="nativeId">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="openAd">ca-app-pub-3940256099942544/3419835294</string>
+
+
+    <!--  Original Ad ids-->
+<!--        <string name="app_id">ca-app-pub-8679630758199043~3840902119</string>-->
+<!--        <string name="bannerId">ca-app-pub-8679630758199043/2527820444</string>-->
+<!--        <string name="interstitialId">ca-app-pub-8679630758199043/6913788013</string>-->
+<!--        <string name="nativeId">ca-app-pub-8679630758199043/8715128301</string>-->
+<!--        <string name="openAd">ca-app-pub-3940256099942544/3419835294</string>-->
+
+    <!--    //preview-->
+    <string name="unlock_feature_body">Double Tap to start/pause video</string>
+    <string name="set_turn_on_audio">Turn on audio</string>
+    <string name="video_scaling_mode_1">SCALE TO FIT</string>
+
+
+    <!--    wallpaperservice-->
+    <string name="set_video_wallpaper">Set Video Wallpaper</string>
+    <string name="app_provider">com.example.fullnewwallpaper.provider</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="centerCrop">Center Crop</string>
+    <string name="fitXY">FitXY</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="skip">Skip</string>
+    <string name="video_saved_at">VideoSaved IT</string>
+    <string name="video_saved">VideoSaved</string>
+    <string name="exit">Exit</string>
+    <string name="permission_enable">Enable permission for Media File</string>
+    <string name="ok">OK</string>
+
+</resources>

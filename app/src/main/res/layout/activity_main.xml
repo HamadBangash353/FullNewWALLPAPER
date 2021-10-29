@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context="video.wallpaper.videotolive.maker.activities.MainActivity">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ivHeader"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_header" />
+
+    <ImageView
+        android:id="@+id/ivMenu"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_menu" />
+
+    <LinearLayout
+        android:layout_below="@+id/ivHeader"
+        android:layout_marginBottom="@dimen/_35sdp"
+        android:id="@+id/nativeAdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@android:color/darker_gray">
+
+        <video.wallpaper.videotolive.maker.native_ads.TemplateView
+
+            android:id="@+id/my_template"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:gnt_template_type="@layout/medium_ad" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/nativeAdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/select_video"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:background="@drawable/btn_select_video"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppings_medium"
+                android:gravity="bottom"
+                android:text="Select Video"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/show_settings"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:background="@drawable/btn_settings"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppings_medium"
+                android:gravity="bottom"
+                android:text="Settings"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
